@@ -125,6 +125,7 @@
             this.filteredImageToolStripMenuItem.Name = "filteredImageToolStripMenuItem";
             this.filteredImageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.filteredImageToolStripMenuItem.Text = "Filtered Image";
+            this.filteredImageToolStripMenuItem.Click += new System.EventHandler(this.filteredImageToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 

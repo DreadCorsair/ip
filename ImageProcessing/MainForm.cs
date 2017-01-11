@@ -22,5 +22,11 @@ namespace ImageProcessing
             OriginalImageForm originalImageForm = new OriginalImageForm();
             originalImageForm.Show();
         }
+
+        private void filteredImageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FilteredImageForm filteredImageForm = new FilteredImageForm();
+            filteredImageForm.Show();
+        }
     }
 }

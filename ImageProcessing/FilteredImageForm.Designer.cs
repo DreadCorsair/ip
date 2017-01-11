@@ -1,6 +1,6 @@
 ﻿namespace ImageProcessing
 {
-    partial class OriginalImageForm
+    partial class FilteredImageForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.OriginalPictureBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.OriginalPictureBox)).BeginInit();
+            this.FilteredPictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.FilteredPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
-            // OriginalPictureBox
+            // FilteredPictureBox
             // 
-            this.OriginalPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OriginalPictureBox.Location = new System.Drawing.Point(0, 0);
-            this.OriginalPictureBox.Name = "OriginalPictureBox";
-            this.OriginalPictureBox.Size = new System.Drawing.Size(284, 262);
-            this.OriginalPictureBox.TabIndex = 0;
-            this.OriginalPictureBox.TabStop = false;
+            this.FilteredPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FilteredPictureBox.Location = new System.Drawing.Point(0, 0);
+            this.FilteredPictureBox.Name = "FilteredPictureBox";
+            this.FilteredPictureBox.Size = new System.Drawing.Size(284, 262);
+            this.FilteredPictureBox.TabIndex = 0;
+            this.FilteredPictureBox.TabStop = false;
             // 
-            // OriginalImageForm
+            // FilteredImageForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.OriginalPictureBox);
-            this.Name = "OriginalImageForm";
-            this.Text = "Original Image";
-            ((System.ComponentModel.ISupportInitialize)(this.OriginalPictureBox)).EndInit();
+            this.Controls.Add(this.FilteredPictureBox);
+            this.Name = "FilteredImageForm";
+            this.Text = "FilteredImageForm";
+            ((System.ComponentModel.ISupportInitialize)(this.FilteredPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox OriginalPictureBox;
+        private System.Windows.Forms.PictureBox FilteredPictureBox;
     }
 }
