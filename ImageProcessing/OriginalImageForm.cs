@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ImageProcessing
 {
-    public partial class MainForm : Form
+    public partial class OriginalImageForm : Form
     {
-        public MainForm()
+        public OriginalImageForm()
         {
             InitializeComponent();
-        }
-
-        private void originalImageToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OriginalImageForm originalImageForm = new OriginalImageForm();
-            originalImageForm.Show();
         }
     }
 }

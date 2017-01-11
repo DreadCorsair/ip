@@ -74,13 +74,13 @@
             // openImageToolStripMenuItem
             // 
             this.openImageToolStripMenuItem.Name = "openImageToolStripMenuItem";
-            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.openImageToolStripMenuItem.Text = "Open Image";
             // 
             // saveImageAsToolStripMenuItem
             // 
             this.saveImageAsToolStripMenuItem.Name = "saveImageAsToolStripMenuItem";
-            this.saveImageAsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveImageAsToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.saveImageAsToolStripMenuItem.Text = "Save Image As";
             // 
             // editToolStripMenuItem
@@ -118,6 +118,7 @@
             this.originalImageToolStripMenuItem.Name = "originalImageToolStripMenuItem";
             this.originalImageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.originalImageToolStripMenuItem.Text = "Original Image";
+            this.originalImageToolStripMenuItem.Click += new System.EventHandler(this.originalImageToolStripMenuItem_Click);
             // 
             // filteredImageToolStripMenuItem
             // 
